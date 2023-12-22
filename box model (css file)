@@ -1,0 +1,109 @@
+
+/* Style pour afficher la liste horizontalement */
+.horizontal-list {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: -10px;
+    background-color: #a306b6; /* Couleur de fond du menu */
+  }
+  
+.horizontal-list li {
+    float: left; /* Les éléments de la liste flottent à gauche */
+    display: block;
+  }
+  
+.horizontal-list li a {
+    display: block;
+    color: white;
+    padding: 14px 16px; /* ajuste esthétiquement les différents titres (home, about, etc) de manière à ce que la bande violet soit assez large*/
+    text-decoration: none; /* enlève le soulignement auto*/
+  }
+  
+/* Ajout d'un style spécifique pour le survol */
+.horizontal-list li:hover {
+    background-color: white;
+    color: purple;
+  }
+  
+  .horizontal-list li:hover a {
+    color: purple;
+  }
+
+.box-model{
+    margin: 50px auto; /* Marge et auto pour centrer la boîte horizontalement */
+    width: 60%; /* Largeur de la boîte */
+    background-color: #ccc; /* Couleur de fond grise */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    text-align: center;
+}
+
+.leave-message{
+    margin: 10px auto; /* Marge et auto pour centrer la boîte horizontalement */
+    width: 100%; /* Largeur de la boîte */
+}
+
+form{
+    margin: 50px auto; /* Marge et auto pour centrer la boîte horizontalement */
+    width: 40%; /* Largeur de la boîte */
+}
+
+footer{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: grey; /* Couleur de fond du menu */
+    color: white;
+    padding: 10px 12px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+input{
+    margin: 10px auto; /* Marge et auto pour centrer la boîte horizontalement */
+    width: 80%; /* Largeur de la boîte */
+    background-color: #ccc; /* Couleur de fond grise */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px; /* Espacement intérieur */
+    text-align: center;
+    border-color: none;
+}
+
+button{
+    margin: 10px auto; /* Marge et auto pour centrer la boîte horizontalement */
+    width: 10%; /* Largeur de la boîte */
+    background-color:#a306b6; /* Couleur de fond grise */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px; /* Espacement intérieur */
+    text-align: center;
+    color: white;
+}
+
+textarea{
+    margin: 10px auto; /* Marge et auto pour centrer la boîte horizontalement */
+    width: 80%; /* Largeur de la boîte */
+    background-color: #ccc; /* Couleur de fond grise */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 60px; /* Espacement intérieur */
+    text-align: center;
+}
+
+body {
+    background-color: white;
+  }
+  
+  h1 {
+    color: black;
+    margin-left: 20px;
+  }
+
